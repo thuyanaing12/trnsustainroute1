@@ -1,0 +1,388 @@
+body {
+    background-color: #213C51;
+    margin: auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.navbar {
+    background-color: #7a7693;
+    margin: 20px;
+    border-radius: 50px;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    position: fixed;
+}
+
+.nav {
+    background: #EEEEEE;
+    padding: 20px 30px ;
+    margin-right: 70px;
+    border-radius: 40px;
+}
+
+.nav a {
+    margin: 0px 15px;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+.nav a:hover {
+    color: #DDAED3;
+}
+.logo img {
+    height: 60px;
+    width: auto;
+    display: flex;
+   
+}
+#mynav{
+    height:20vh;
+}
+.hero {
+    text-align: center;
+    padding: 120px 20px;}
+
+.hero {
+    text-align: center;
+    padding: 120px 20px;
+    background-image:url("image/ecocity.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.hero h1 {
+    color: #213C51;
+    font-size: 50px;
+    font-weight: normal;
+}
+#maintitle{
+    margin-top: 10%;
+    margin-bottom: 7%;
+
+}
+.button {
+    padding: 12px 25px;
+    background: #e6e6e6;
+    border-radius: 25px;
+    border: none;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.button:hover {
+    color: #DDAED3 ;
+}
+
+.info {
+    background: #e6e6e6;
+    text-align: center;
+    padding: 80px 20px;
+    margin-top: 60px; 
+}
+
+
+.info h1 {
+    color: #27465a;
+    font-size: 32px;
+    max-width: 900px;
+    margin: auto;
+}
+
+.impact {
+    background: #EEEEEE;
+    text-align: center;
+    padding: 35px 5px 35px ;
+    margin-top: 60px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.538) ;
+    border-radius: 30px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.impact h2 {
+    color: #000000b6;
+    font-size: 40px;
+    margin-bottom:10px;
+}
+
+.impact p {
+    color: #213C51;
+    font-size: 20px;
+    max-width: 700px;
+    margin: auto;
+}
+
+.footer {
+  background-color: #EEEEEE;
+  color: rgb(4, 0, 0);
+  padding: 40px 20px;
+  margin-top: 50px;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.footer-section {
+  flex: 1;
+}
+
+.footer-section h3 {
+  margin-bottom: 10px;
+}
+
+.footer-section a {
+  display: block;
+  color: black;
+  text-decoration: none;
+  margin: 5px 0;
+}
+
+.footer-section a:hover {
+  color: #eda8ed;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 14px;
+  border-top: 1px solid #444;
+  padding-top: 15px;
+}
+
+.problem-solution {
+    text-align: center;
+    padding: 10px 20px;
+}
+
+.problem-solution h2 {
+    color: #d8b4d8;
+    font-size: 45px;
+    margin-bottom: 40px;
+}
+
+.more-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.more-card {
+    background: #EEEEEE;
+    width: 300px;
+    padding: 25px;
+    border-radius: 25px;
+    box-shadow: 0 5px 15px white;
+    transition: 0.3s;
+    z-index: 0}
+
+.more-card:hover {
+    transform: translateY(-8px);
+}
+
+.more-card h3 {
+    color: #27465a;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.more-card h4 {
+    color: #7a7693;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 22px;
+}
+
+.more-card p {
+    color: #333;
+    font-size: 18px;
+}
+
+.more {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: #7a7693;
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+    
+}
+
+.more:hover {
+    background: #d8b4d8;
+    color: black;
+}
+
+.pledge {
+    background: #EEEEEE;
+    width: 70%;
+    margin: 60px auto;
+    padding: 40px;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.pledge h2 {
+    color: #27465a;
+    font-size: 40px;
+}
+
+.pledge p {
+    font-size: 20px;
+    color: #333;
+    margin-top: 20px;
+}
+
+.pledgebutton {
+    margin-top: 25px;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 25px;
+    background: #7a7693;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.pledgebutton:hover {
+    background: #d8b4d8;
+    color: black;
+}
+
+.report {
+    background: #EEEEEE;
+    width: 70%;
+    margin: 60px auto;
+    padding: 40px;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.report h2 {
+    color: #27465a;
+    font-size: 40px;
+}
+
+.report p {
+    font-size: 20px;
+    color: #333;
+}
+
+.report-box {
+    margin-top: 30px;
+}
+
+.report-box label {
+    font-size: 20px;
+    color: #213C51;
+}
+
+.report-box textarea {
+    width: 70%;
+    padding: 15px;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+.report-box textarea {
+    height: 120px;
+}
+
+.report-btn {
+    padding: 12px 25px;
+    border: none;
+    border-radius: 25px;
+    background: #213C51;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.reportbutton:hover {
+    background: #d8b4d8;
+    color: black;
+}
+
+
+/* aboutus */
+section {
+   padding: 40px;
+   text-align: center;
+ 
+    }
+ 
+.purpose {
+    background: white;
+    margin: 10px;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: left;
+}
+ 
+.team {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+    }
+ 
+.member {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 150px;
+    padding: 25px;
+    border-radius: 25px;
+    box-shadow: 0 5px 15px white;
+    transition: 0.3s;
+    z-index: 100;
+}
+
+.member {
+    transform: translateY(-8px);
+    }
+ 
+.member img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    }
+ 
+.contact {
+    background: white;
+    }
+   .mission {
+    text-align: left;
+
+    }
+    .vision {
+    text-align: left;
+
+    }
+/* aboutUs */ 
+
+
+
+.footer-section a {
+  font-size: 24px;
+  margin-right: 15px;
+  color: rgb(0, 0, 0); 
+  text-decoration: none;
+}
+
+.footer-section a:hover {
+  color: #eda8ed;
+}

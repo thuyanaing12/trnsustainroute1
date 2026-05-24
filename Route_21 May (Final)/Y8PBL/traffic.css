@@ -1,0 +1,178 @@
+body {
+    background-color: #213C51;
+    margin: auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.navbar {
+    background-color: #7a7693;
+    margin: 20px;
+    border-radius: 50px;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    position: fixed;
+}
+
+.logo img {
+    height: 60px;
+    width: auto;
+    display: flex;
+    
+}
+
+.nav {
+    background: #EEEEEE;
+    padding: 20px 30px;
+    margin-right: 70px;
+    border-radius: 40px;
+}
+
+.nav a {
+    margin: 0px 15px;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+.nav a:hover {
+    color: #DDAED3;
+}
+
+
+
+.traffic-hero {
+    text-align: center;
+    padding: 180px 20px 100px;
+}
+
+.traffic-hero h1 {
+    color: #d8b4d8;
+    font-size: 55px;
+    margin-bottom: 30px;
+    font-weight: normal;
+}
+
+.traffic-hero p {
+    color: #EEEEEE;
+    font-size: 22px;
+    max-width: 850px;
+    margin: auto;
+    line-height: 1.7;
+}
+
+
+
+.traffic-problems {
+    text-align: center;
+    padding: 70px 20px;
+}
+
+.traffic-problems h2 {
+    color: #d8b4d8;
+    font-size: 45px;
+    margin-bottom: 40px;
+}
+
+.problem-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.problem-card {
+    background: #EEEEEE;
+    width: 300px;
+    padding: 30px;
+    border-radius: 25px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    transition: 0.3s;
+}
+
+.problem-card:hover {
+    transform: translateY(-8px);
+}
+
+.problem-card h3 {
+    color:#27465a;
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.problem-card p {
+    color:#27465a;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+
+.learn{
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #213C51;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.learn:hover{
+    background-color: #DDAED3;
+}
+
+.footer {
+  background-color: #EEEEEE;
+  color: rgb(4, 0, 0);
+  padding: 40px 20px;
+  margin-top: 50px;
+}
+ 
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 30px;
+}
+ 
+.footer-section {
+  flex: 1;
+}
+ 
+.footer-section h3 {
+  margin-bottom: 10px;
+}
+ 
+.footer-section a {
+  display: block;
+  color: black;
+  text-decoration: none;
+  margin: 5px 0;
+}
+ 
+.footer-section a:hover {
+  color: #eda8ed;
+}
+ 
+.footer-bottom {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 14px;
+  border-top: 1px solid #444;
+  padding-top: 15px;
+}
+
+.footer-section a {
+  font-size: 24px;
+  margin-right: 15px;
+  color: rgb(0, 0, 0); 
+  text-decoration: none;
+}
+
+.footer-section a:hover {
+  color: #eda8ed;
+}
